@@ -5,6 +5,8 @@
 }
 
 #squares{
+    width: 800px;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
 }
@@ -12,9 +14,25 @@
 .square{
     width: 100px;
     height: 100px;
-    background-color: rgb(81, 81, 199);
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+.bg-blue{
+    background-color: blue;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.bg-normal{
+    background-color: rgb(26, 87, 66);
 }
