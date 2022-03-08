@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#squares{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(81, 81, 199);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
